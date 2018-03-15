@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Helvetica.ttc">
+            <string>Helvetica</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicTypeFonts" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iJf-VG-5mt">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CustomFont 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5al-tj-nXc">
+                                        <rect key="frame" x="140.5" y="0.0" width="94.5" height="81"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CustomFont 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HxV-Yc-mhZ">
+                                        <rect key="frame" x="140.5" y="81" width="94.5" height="81"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="osn-7i-bPV">
+                                        <rect key="frame" x="160.5" y="162" width="54.5" height="80.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-k3-z0F">
+                                        <rect key="frame" x="168" y="242.5" width="39.5" height="81"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPW-ym-l5b">
+                                        <rect key="frame" x="161" y="323.5" width="53" height="81"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4S-7Q-l52">
+                                        <rect key="frame" x="162" y="404.5" width="51" height="81"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SubHead" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vKS-nR-rjY">
+                                        <rect key="frame" x="156" y="485.5" width="63.5" height="80.5"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FootNote" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLG-s0-L1f">
+                                        <rect key="frame" x="159.5" y="566" width="56.5" height="81"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iJf-VG-5mt" secondAttribute="trailing" id="77X-XP-OgV"/>
+                            <constraint firstItem="iJf-VG-5mt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OAM-6b-P7b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iJf-VG-5mt" secondAttribute="bottom" id="dei-40-vXl"/>
+                            <constraint firstItem="iJf-VG-5mt" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qYb-86-Io4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="lblBody" destination="u0c-k3-z0F" id="9C8-vD-CdO"/>
+                        <outlet property="lblCaption1" destination="SPW-ym-l5b" id="EGF-ff-vmK"/>
+                        <outlet property="lblCaption2" destination="o4S-7Q-l52" id="BZQ-vx-32W"/>
+                        <outlet property="lblCustomFont1" destination="5al-tj-nXc" id="SRu-fd-htf"/>
+                        <outlet property="lblCustomFont2" destination="HxV-Yc-mhZ" id="xJP-LY-RXo"/>
+                        <outlet property="lblFootnote" destination="GLG-s0-L1f" id="I6G-oy-mHp"/>
+                        <outlet property="lblSubhead" destination="vKS-nR-rjY" id="6T2-nA-E3B"/>
+                        <outlet property="lblTitle3" destination="osn-7i-bPV" id="hkd-ah-mks"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="88.799999999999997" y="98.50074962518741"/>
+        </scene>
+    </scenes>
+</document>
